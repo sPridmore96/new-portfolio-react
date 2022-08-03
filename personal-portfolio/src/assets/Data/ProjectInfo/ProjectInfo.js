@@ -9,7 +9,7 @@ const projectInfo = [
     {
         title: "Full Stack Project",
         subHeadings: ["SQL", "Java", "React", "Spring Boot"],
-        overview: "This is a project that works off a SQL workbench local instance of a database. Using java retrieve and send information that is then used in a react UI.",
+        overview: "This is a project that works off a SQL workbench local instance of a database. Using java and Spring Boot retrieve and send information that is then used in a react UI.",
         image: coursology,
         linkCode: "https://github.com/sPridmore96/full-stack-project",
         linkLiveSite: ""

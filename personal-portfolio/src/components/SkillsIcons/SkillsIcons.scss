@@ -1,0 +1,11 @@
+@use "../../assets//Scss/variables.scss" as *;
+
+.icon-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $seconardy-font;
+    font-size: 0.7rem;
+    height: 6.5rem;
+}

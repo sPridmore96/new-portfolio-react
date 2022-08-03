@@ -1,0 +1,22 @@
+@use "../../assets/Scss/variables.scss" as *;
+
+.skillsTreeGrid {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+
+  &__header {
+    margin: 4rem auto;
+    font-size: 2.5rem;
+    font-family: $seconardy-font;
+    color: $secondary-color;
+  }
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 8rem;
+    align-items: center;
+    gap: 2rem 2rem;
+    margin-bottom: 4rem;
+  }
+}

@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../Button/Button";
 import "./Card.scss";
 import eyeIcon from "../../assets/icons/eyeIcon.webp";
-import codeEndTag from "../../assets/icons/CodeEndTag.png"
+import codeEndTag from "../../assets/icons/CodeEndTag.png";
 
 const Card = ({ projectData }) => {
   const cardJSX = projectData.map((project, index) => {
@@ -16,20 +16,27 @@ const Card = ({ projectData }) => {
         <div className="card__content">
           <div className="card__subHeadings">
             {subHeadings.map((subHead, index) => (
-                <p key={index}>{subHead}</p>
-                ))}
+              <p key={index}>{subHead}</p>
+            ))}
           </div>
-                <h2>{title}</h2>
+          <h2 className="card__title">{title}</h2>
           <div className="card__overview">{overview}</div>
           <div className="card__buttons">
-          <Button buttonText={"Code"} buttonImg={codeEndTag} buttonLink={linkCode} />
-          <Button buttonText={"Preview"} buttonImg={eyeIcon} buttonLink={linkLiveSite}/>
+            <Button
+              buttonText={"Code"}
+              buttonImg={codeEndTag}
+              buttonLink={linkCode}
+            />
+            <Button
+              buttonText={"Preview"}
+              buttonImg={eyeIcon}
+              buttonLink={linkLiveSite}
+            />
           </div>
         </div>
       </div>
     );
   });
-
   return <>{cardJSX}</>;
 };
 
