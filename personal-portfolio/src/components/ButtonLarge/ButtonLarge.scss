@@ -1,0 +1,25 @@
+@use "../../assets/Scss/variables" as *;
+
+.largeButton-container {
+  margin: 4rem auto 10rem auto;
+  display: flex;
+  width: 19rem;
+  height: 4rem;
+  text-decoration: none;
+  &__button {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    display: flex;
+    border-radius: 0.5rem;
+    background-color: $primary-color;
+    font-family: $main-font;
+    color: $secondary-color;
+    font-weight: 700;
+    width: 100%;
+    border: 2px solid $secondary-color;
+  }
+  &__img {
+    width: 3rem;
+  }
+}

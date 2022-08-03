@@ -1,0 +1,14 @@
+@use "../../assets/Scss/variables" as *;
+.navBar{
+    display: flex;
+    height: 2rem;
+    width: 100%;
+    justify-content: space-around;
+    margin: 1rem auto;
+    font-family: $seconardy-font;
+    color: $secondary-color;
+    &__icon{
+        width: 2rem;
+    }
+
+}

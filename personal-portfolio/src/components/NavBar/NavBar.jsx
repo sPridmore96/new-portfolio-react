@@ -5,11 +5,11 @@ import codeEndTag from "../../assets/icons/CodeEndTag.png"
 
 const NavBar = () => {
   return (
-    <div>
-      <img src={codeEndTag} alt="code end tag"/>
+    <div className="navBar">
+      <img className="navBar__icon" src={codeEndTag} alt="code end tag"/>
       <h2>Sam Pridmore</h2>
       <a href="">
-        <img src={menuIcon} alt="menu icon"/>
+        <img className="navBar__icon" src={menuIcon} alt="menu icon"/>
       </a>
     </div>
   );

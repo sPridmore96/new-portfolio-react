@@ -1,0 +1,16 @@
+@use "../../assets/Scss/variables" as *;
+.home{
+    display: flex;
+    flex-direction: column;
+    &__welcome{
+        margin: 2rem 0 0 1rem;
+        color: $faded-grey;
+        font-family: $seconardy-font;
+        font-weight: 550;
+    }
+    &__discription{
+        margin: 0 0 2rem 1rem;
+        font-family: $main-font;
+        font-size: 3rem;
+    }
+}
