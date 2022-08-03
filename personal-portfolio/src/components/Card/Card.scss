@@ -1,0 +1,48 @@
+@use "../../assets/Scss/variables" as *;
+
+.card {
+  border: solid 1px;
+  border-radius: 1.3rem;
+  margin: 2rem auto;
+  height: 30rem;
+  width: 20rem;
+
+  &__image-container {
+    display: flex;
+    border-radius: 1.3rem 1.3rem 0 0;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: $primary-color;
+    width: 100%;
+    height: 15rem;
+    padding-top: 1rem;
+  }
+  &__image {
+    width: 60%;
+    height: 90%;
+    border-radius: 0.6rem 0.6rem 0 0;
+  }
+  &__content {
+    margin: 0.3rem auto;
+    height: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+  }
+  &__subHeadings {
+    display: flex;
+    flex-direction: column;
+    font-family: $main-font;
+    color: $darkerBlue;
+    font-weight: 700;
+  }
+  &__overview {
+    font-family: $main-font;
+}
+  &__buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+  }
+}

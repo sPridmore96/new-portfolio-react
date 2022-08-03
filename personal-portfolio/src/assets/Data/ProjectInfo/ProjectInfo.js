@@ -1,7 +1,7 @@
-import cardGame from "../images/cardgame.PNG"
-import calculator from "../images/calculator.PNG";
-import punkApi from "../images/punkapi.PNG";
-import coursology from "../images/coursology.PNG"
+import cardGame from "../../images/cardgame.PNG"
+import calculator from "../../images/calculator.PNG";
+import punkApi from "../../images/punkapi.PNG";
+import coursology from "../../images/coursology.PNG"
 
 
 
@@ -9,7 +9,7 @@ const projectInfo = [
     {
         title: "Full Stack Project",
         subHeadings: ["SQL", "Java", "React", "Spring Boot"],
-        overview: "This is a project that works off a SQL workbench local instance of a database. Using java retrieve and send information that are used in a react UI.",
+        overview: "This is a project that works off a SQL workbench local instance of a database. Using java retrieve and send information that is then used in a react UI.",
         image: coursology,
         linkCode: "https://github.com/sPridmore96/full-stack-project",
         linkLiveSite: ""
@@ -33,6 +33,7 @@ const projectInfo = [
     {
         title: "Calculator",
         subHeadings: ["Javascript", "HTML", "SCSS"],
+        overview: "This is a calculator project that has been made in Javascript. It can perform multiple calculations in one line abiding by the BODMAS rules of calculation. Its styling was based on a android phone calculator.",
         image: calculator,
         linkCode: "https://github.com/sPridmore96/calculator",
         linkLiveSite: "https://spridmore96.github.io/calculator/"

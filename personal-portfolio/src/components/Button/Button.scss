@@ -1,0 +1,22 @@
+@use "../../assets/Scss/variables" as *;
+
+.button-container {
+    margin: auto 1rem;
+  display: flex;
+  width: 6rem;
+  text-decoration: none;
+  &__button {
+    display: flex;
+      background-color: white;
+      font-family: $main-font;
+      color: $darkerBlue;
+      font-weight: 700;
+      width: 100%;
+      border: none;
+      border-bottom: dotted 2px $darkerBlue;
+      justify-content: space-between;
+  }
+  &__img {
+    width: 1rem;
+  }
+}
