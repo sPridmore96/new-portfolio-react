@@ -1,0 +1,20 @@
+@use "../../assets/Scss/variables" as *;
+
+.footer{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: $secondary-color;
+    padding: 1rem;
+    border-radius: 10px 10px 0 0;
+
+    &__icon{
+
+    }
+    &__email{
+        font-family: $seconardy-font;
+        color: $color-white;
+    }
+}

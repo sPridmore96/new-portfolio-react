@@ -1,0 +1,21 @@
+@use "../../assets/Scss/variables" as *;
+
+.list{
+    padding: 1rem 0.5rem;
+    width: 100&;
+    height: auto;
+    text-align: center;
+    list-style: none;
+
+    &__cross{
+        width: 1rem;
+    }
+
+    &__item{
+        margin: 2rem auto;
+        color: $color-white;
+        text-decoration: none;
+        display: block;
+
+    }
+}

@@ -1,13 +1,13 @@
 @use "../../assets/Scss/variables" as *;
 
 .card {
-  border: solid 1px;
   margin: 2rem auto;
   height: 35rem;
   width: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
   &__image-container {
     display: flex;

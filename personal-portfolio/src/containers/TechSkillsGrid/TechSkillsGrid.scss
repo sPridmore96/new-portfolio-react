@@ -10,6 +10,7 @@
     font-size: 2.5rem;
     font-family: $seconardy-font;
     color: $secondary-color;
+    text-decoration: underline $primary-color;
   }
   &__container {
     display: grid;
