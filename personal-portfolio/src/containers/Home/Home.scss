@@ -3,14 +3,22 @@
     display: flex;
     flex-direction: column;
     &__welcome{
-        margin: 2rem 0 0 1rem;
+        margin: 5rem 0 0 1rem;
         color: $faded-grey;
         font-family: $seconardy-font;
         font-weight: 550;
     }
-    &__discription{
+    &__description{
         margin: 0 0 2rem 1rem;
         font-family: $main-font;
         font-size: 3rem;
+    }
+    &__sub-heading{
+        margin: 3rem;
+        text-align: center;
+        font-family: $main-font;
+        color: $secondary-color;
+        font-size: 2.5rem;
+        text-decoration: underline $primary-color;
     }
 }
