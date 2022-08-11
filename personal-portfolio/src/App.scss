@@ -1,6 +1,10 @@
 @use "/src/assets/Scss/reset" as *;
+@use "./assets/Scss/variables" as *;
+
 
 .App {
-  width: 98%;
+  width: 99%;
   margin: 0 auto;
+  background: rgb(250,250,250);
+background: linear-gradient(50deg, rgba(250,250,250,1) 69%, rgba(227,246,245,1) 100%);
 }
