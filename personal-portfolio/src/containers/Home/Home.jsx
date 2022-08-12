@@ -22,7 +22,7 @@ const Home = ({ projectData, skillTreeIcons }) => {
       <div>
         <Card projectData={projectData} />
       </div>
-      <div>
+      <div id="About-me">
         <AboutMe/>
       </div>
       <div>
