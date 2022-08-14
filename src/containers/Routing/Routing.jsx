@@ -9,7 +9,7 @@ const Routing = () => {
     <Router>
       <Routes>
         <Route
-          path="spridmore96/react-personal-portfolio"
+          path="/"
           element={
             <Home skillTreeIcons={skillTreeIcons} projectData={projectData} />
           }
