@@ -1,7 +1,5 @@
 import './App.scss';
 import Routing from './containers/Routing/Routing';
-import {HashRouter} from "react-router-dom"
-
 
 
 
