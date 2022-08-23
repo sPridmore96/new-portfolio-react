@@ -1,0 +1,134 @@
+@use "../../assets/Scss/variables" as *;
+
+.contact {
+    width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(250, 250, 250);
+    background: linear-gradient(50deg, rgba(250, 250, 250, 1) 69%, rgba(227, 246, 245, 1) 100%);
+    font-family: $main-font;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 5rem;
+
+    &__my-photo{
+        width: 10rem;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+
+
+    &__info-container {
+        width: 90%;
+        height: 10rem;
+        margin: 0 auto 3rem auto;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-weight: 700;
+    }
+
+    &__header {
+        font-family: $secondary-font;
+    }
+
+    &__phone {}
+
+    &__emails {}
+
+    &__form-container {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    &__sub-header {
+        margin: 1rem auto 0 auto;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        width: 90%;
+        margin: 2rem auto;
+        align-items: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    }
+
+    &__input-container {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
+    }
+
+    &__label {
+        margin: 1rem 0;
+        text-decoration: underline dashed 1px $secondary-color;
+        font-weight: 700;
+    }
+
+    &__input {
+        border: none;
+        border-radius: 5px;
+        height: 1.5rem;
+        background-color: $primary-color;
+        color: $secondary-color;
+        padding: 0.3rem;
+    }
+
+    &__text-area {
+        height: 5rem;
+        background-color: $primary-color;
+        border: none;
+        border-radius: 10px;
+        padding: .3rem;
+        color: $secondary-color;
+        font-family: $secondary-font;
+    }
+
+    &__button {
+        margin: 2rem;
+        width: 6rem;
+        padding: 1rem;
+        border: none;
+        background-color: $secondary-color;
+        color: $color-white;
+        border-radius: 5px;
+    }
+
+    &__button-home{
+        width: 9rem;
+        padding: 1rem;
+        border: none;
+        background-color: $primary-color;
+        color: $secondary-color;
+        border-radius: 5px;
+        font-weight: 700;
+    }
+
+    &__button-home-icon{
+        color: $secondary-color;
+        width: 3rem;
+        height: 3rem;
+        border: 2px solid;
+        border-radius: 30px;
+        padding: 0.3rem;
+        margin-left: 2rem;
+    }
+
+    &__home-container{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        margin: .5rem auto;
+        text-decoration: none;
+    }
+
+}
