@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     &__welcome{
-        margin: 5rem 0 0 1rem;
+        margin: 5rem 0 0 2rem;
         color: $faded-grey;
         font-family: $seconardy-font;
         font-weight: 550;
@@ -20,5 +20,10 @@
         color: $secondary-color;
         font-size: 2.5rem;
         text-decoration: underline $primary-color;
+    }
+    &__projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }

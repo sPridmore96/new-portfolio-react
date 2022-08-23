@@ -19,10 +19,10 @@ const Home = ({ projectData, skillTreeIcons }) => {
         <TechSkillsGrid skillTreeIcons={skillTreeIcons} />
       </div>
       <h2 className="home__sub-heading">Projects</h2>
-      <div>
+      <div className="home__projects">
         <Card projectData={projectData} />
       </div>
-      <div id="About-me">
+      <div className="About-me">
         <AboutMe/>
       </div>
       <div>
