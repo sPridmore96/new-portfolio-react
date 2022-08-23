@@ -3,15 +3,16 @@ import Button from "../Button/Button";
 import "./Card.scss";
 import eyeIcon from "../../assets/icons/eyeIcon.webp";
 import codeEndTag from "../../assets/icons/CodeEndTag.png";
+import Carousel from "../Carousel/Carousel";
 
 const Card = ({ projectData }) => {
   const cardJSX = projectData.map((project, index) => {
-    const { title, subHeadings, overview, image, linkCode, linkLiveSite } =
+    const { title, subHeadings, overview, images, linkCode, linkLiveSite } =
       project;
     return (
       <div key={index} className="card">
         <div className="card__image-container">
-          <img className="card__image" src={image} alt={title} />
+          <Carousel imgArr={images}/>
         </div>
         <div className="card__content">
           <div className="card__subHeadings">

@@ -2,8 +2,9 @@
 
 .card {
   margin: 2rem 2rem;
-  height: 35rem;
+  height: 40rem;
   width: 20rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,15 +15,17 @@
     justify-content: center;
     align-items: flex-end;
     background-color: $primary-color;
-    width: 90%;
-    margin: 1rem auto;
     height: 15rem;
-    padding-top: 1rem;
+    width: 17rem;
+    margin-bottom: .5rem;
+
   }
   &__image {
-    width: 60%;
+    width: 10rem;
     height: 90%;
     border-radius: 0.6rem 0.6rem 0 0;
+    margin-left: 3rem;
+    
   }
   &__content {
     height: 50%;
