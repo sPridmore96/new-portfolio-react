@@ -15,8 +15,8 @@
     &__my-photo{
         width: 10rem;
         position: absolute;
-        right: 1rem;
-        top: 1rem;
+        right: .3rem;
+        top: .2rem;
     }
 
 
@@ -34,10 +34,6 @@
     &__header {
         font-family: $secondary-font;
     }
-
-    &__phone {}
-
-    &__emails {}
 
     &__form-container {
         width: 90%;

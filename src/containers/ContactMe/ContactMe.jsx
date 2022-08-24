@@ -30,18 +30,18 @@ function ContactMe() {
 
   return (
     <div className="contact">
-      <img className="contact__my-photo" src={myPhoto} alt="" />
+      <img className="contact__my-photo" src={myPhoto} alt="of Sam Pridmore"/>
       <div className="contact__info-container">
         <h2 className="contact__header">Contact Me</h2>
-        <p className="contact__phone">Personal Number : 07904479850</p>
-        <p className="contact__emails">
+        <p>Personal Number : 07904479850</p>
+        <p>
           Personal Email : Spridmore96@gmail.com <br></br>
           _Nology Email : Samuel.Pridmore@nology.io
         </p>
       </div>
       <div className="contact__form-container">
         <h3 className="contact__sub-header">
-          Or drop me an email vier this form.
+          Or drop me an email with this form.
         </h3>
         <form className="contact__form" ref={form} onSubmit={sendEmail}>
           <div className="contact__input-container">
