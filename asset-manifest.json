@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/new-portfolio-react/static/css/main.4536dea1.css",
-    "main.js": "/new-portfolio-react/static/js/main.efd9b1e4.js",
+    "main.css": "/new-portfolio-react/static/css/main.890712b4.css",
+    "main.js": "/new-portfolio-react/static/js/main.b038ae2a.js",
     "static/js/787.fb771931.chunk.js": "/new-portfolio-react/static/js/787.fb771931.chunk.js",
     "static/media/punkapi.PNG": "/new-portfolio-react/static/media/punkapi.64e255e4e13e0fc0510c.PNG",
+    "static/media/home-page.PNG": "/new-portfolio-react/static/media/home-page.929f1253d52bd040e736.PNG",
     "static/media/coursology.PNG": "/new-portfolio-react/static/media/coursology.2ab4721e03f965bc3d93.PNG",
+    "static/media/weather-page.PNG": "/new-portfolio-react/static/media/weather-page.1914ea673e162b17c980.PNG",
+    "static/media/maps-page.PNG": "/new-portfolio-react/static/media/maps-page.63645eca2481a06bb521.PNG",
     "static/media/cardgame.PNG": "/new-portfolio-react/static/media/cardgame.0cb445abd8b07d47b91c.PNG",
+    "static/media/splash-page.PNG": "/new-portfolio-react/static/media/splash-page.57666b664a080abaa875.PNG",
     "static/media/MyPhoto.png": "/new-portfolio-react/static/media/MyPhoto.12c48498c38ee31258b5.png",
     "static/media/calculator.PNG": "/new-portfolio-react/static/media/calculator.25f146166b6374f9cf03.PNG",
     "static/media/WhiteCross.png": "/new-portfolio-react/static/media/WhiteCross.9ce841ba9f76c0c19f89.png",
@@ -14,12 +18,12 @@
     "static/media/indeed.svg": "/new-portfolio-react/static/media/indeed.3af4fa83704b369c1747bcb0790ac9be.svg",
     "static/media/CVIcon.svg": "/new-portfolio-react/static/media/CVIcon.9f1e6f6d33c1e9abff44d9c1a27b9611.svg",
     "index.html": "/new-portfolio-react/index.html",
-    "main.4536dea1.css.map": "/new-portfolio-react/static/css/main.4536dea1.css.map",
-    "main.efd9b1e4.js.map": "/new-portfolio-react/static/js/main.efd9b1e4.js.map",
+    "main.890712b4.css.map": "/new-portfolio-react/static/css/main.890712b4.css.map",
+    "main.b038ae2a.js.map": "/new-portfolio-react/static/js/main.b038ae2a.js.map",
     "787.fb771931.chunk.js.map": "/new-portfolio-react/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4536dea1.css",
-    "static/js/main.efd9b1e4.js"
+    "static/css/main.890712b4.css",
+    "static/js/main.b038ae2a.js"
   ]
 }
