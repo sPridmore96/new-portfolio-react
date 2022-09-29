@@ -27,3 +27,10 @@
         justify-content: center;
     }
 }
+
+@media screen and (min-width: 716px) {
+    .home {
+      width: 70%;
+      margin: auto;
+    }
+  }
