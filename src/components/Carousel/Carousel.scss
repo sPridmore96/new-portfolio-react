@@ -20,11 +20,7 @@
         padding: 0;
         overflow: scroll;
         scroll-behavior: smooth;
-        ::-webkit-scrollbar {
-            display: none;
-            width: 0;
-            height: 0;
-        }
+
     }
 
     &__img{
