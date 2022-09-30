@@ -1,15 +1,9 @@
-// .slide {
-//     width: 100%;
-//     height: 100%;
-//     flex: 1 0 100%;
-// background-color: red;
+@use "../../assets/Scss/variables" as *;
 
 
-// }
-.slider{
-    position: relative;
-    overflow: hidden;
+.slider {
     display: flex;
+    align-items: center;
 
     &__container {
         width: 100%;
@@ -18,12 +12,30 @@
         list-style: none;
         margin: 0;
         padding: 0;
-        overflow: scroll;
-        scroll-behavior: smooth;
-
     }
 
-    &__img{
+    &__button {
+        background-color: transparent;
+        border: none;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &--img{
+            height: 2rem;
+            width: 2rem;
+            color: $secondary-color;
+        }
+
+        &--hidden {
+            display: none;
+        }
+    }
+
+    &__img {
         width: 10rem;
         height: 13rem;
         margin: 0 1rem;
