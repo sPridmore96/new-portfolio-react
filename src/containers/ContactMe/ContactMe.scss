@@ -128,3 +128,22 @@
     }
 
 }
+
+@media screen and (min-width: 716px) {
+    .contact {
+        &__my-photo{
+            width: 10rem;
+            position: absolute;
+            right: 9rem;
+            top: 3rem;
+        }
+        &__info-container{
+            width: 70%;
+            margin: auto;
+        }
+        &__form-container{
+            width: 60%;
+            margin: 2rem auto 0 auto;
+        }
+    }
+  }

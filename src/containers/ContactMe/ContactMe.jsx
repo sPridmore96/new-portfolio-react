@@ -3,35 +3,41 @@ import './ContactMe.scss';
 import emailjs from '@emailjs/browser';
 import myPhoto from '../../assets/images/MyPhoto.png';
 import { FaHome } from 'react-icons/fa';
-import {Link} from "react-router-dom"
+import { Link } from 'react-router-dom';
 
 function ContactMe() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        'service_hew6y0m',
+        'template_7td8wve',
         form.current,
-        'YOUR_PUBLIC_KEY'
+        'NElQvYwcrbIsBekoP'
       )
       .then(
         (result) => {
-          console.log(result.text);
+          alert("Email Has been sent")
+          window.location.reload()
         },
         (error) => {
-          console.log(error.text);
+          alert(error.text)
         }
       );
   };
 
+  
+
   return (
     <div className="contact">
-      <img className="contact__my-photo" src={myPhoto} alt="of Sam Pridmore"/>
       <div className="contact__info-container">
+        <img
+          className="contact__my-photo"
+          src={myPhoto}
+          alt="of Sam Pridmore"
+        />
         <h2 className="contact__header">Contact Me</h2>
         <p>Personal Number : 07904479850</p>
         <p>
@@ -41,7 +47,7 @@ function ContactMe() {
       </div>
       <div className="contact__form-container">
         <h3 className="contact__sub-header">
-          Or drop me an email with this form.
+          Or send me an email with this form.
         </h3>
         <form className="contact__form" ref={form} onSubmit={sendEmail}>
           <div className="contact__input-container">
@@ -59,9 +65,19 @@ function ContactMe() {
           <input className="contact__button" type="submit" value="Send" />
         </form>
       </div>
-      <Link to={"/new-portfolio-react/"} className='contact__home-container'>
-        <button className='contact__button-home'>Back to home</button>
-        <FaHome className='contact__button-home-icon'/>
+      <Link to={'/new-portfolio-react/'} className="contact__home-container">
+        <button
+          onClick={
+            <Link
+              to={'/new-portfolio-react/'}
+              className="contact__home-container"
+            ></Link>
+          }
+          className="contact__button-home"
+        >
+          Back to home
+        </button>
+        <FaHome className="contact__button-home-icon" />
       </Link>
     </div>
   );
