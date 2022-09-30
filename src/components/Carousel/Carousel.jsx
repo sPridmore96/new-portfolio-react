@@ -5,7 +5,6 @@ import { BiChevronLeftCircle, BiChevronRightCircle } from 'react-icons/bi';
 const Carousel = ({ imgArr }) => {
   const [carouselJSX, setCarouselJSX] = useState([]);
   const [counter, setCounter] = useState(0);
-  const [ButtonIsActive, setButtonIsActive] = useState(false);
 
   const handleButtonClick = (event) => {
     if (event.target.id === 'button-left') {
@@ -26,7 +25,7 @@ const Carousel = ({ imgArr }) => {
   const handleCarousel = () => {
     if (imgArr.length === 1) {
       setCarouselJSX([
-        <li key={counter} className="">
+        <li key={1} className="">
           <img className="slider__img" src={imgArr[0]} alt="" />
         </li>,
       ]);
