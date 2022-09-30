@@ -2,6 +2,7 @@
 .home{
     display: flex;
     flex-direction: column;
+    width: 70%;
     &__welcome{
         margin: 5rem 0 0 2rem;
         color: $faded-grey;
